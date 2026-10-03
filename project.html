@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">MyPortfolio</a>
+            <button class="menu-toggle" aria-label="Toggle navigation"
+                    aria-expanded="false">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page-container">
+        <section class="section">
+            <p class="welcome">MY RECENT WORK</p>
+            <h1>My <span>Projects</span></h1>
+            <p class="about-text">
+                Here are some example projects I would like to build
+                and showcase in my portfolio.
+            </p>
+        </section>
+
+        <section class="project-grid">
+            <article class="project-card">
+                <div class="project-icon">🌐</div>
+                <h2>Personal Portfolio</h2>
+                <p>
+                    A responsive personal website built using
+                    HTML, CSS and JavaScript.
+                </p>
+                <p class="tech">HTML · CSS · JavaScript</p>
+            </article>
+
+            <article class="project-card">
+                <div class="project-icon">🎓</div>
+                <h2>Student Management</h2>
+                <p>
+                    A student information management system
+                    for maintaining student records.
+                </p>
+                <p class="tech">Java · Spring Boot · MySQL</p>
+            </article>
+
+            <article class="project-card">
+                <div class="project-icon">📋</div>
+                <h2>To-Do List</h2>
+                <p>
+                    A simple task management application
+                    to add, complete and organize daily tasks.
+                </p>
+                <p class="tech">HTML · CSS · JavaScript</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
